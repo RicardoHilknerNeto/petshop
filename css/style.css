@@ -3,16 +3,20 @@ body{
     margin: 0;
 }
 
-.container{
+header{
     width: 100%;
     height: 100px;
     background-color: darkorange;
 }
 
-.container img{
+header img{
     width: 2.5%;
     float: right;
     margin: 2.5% 3% 0 0;
+}
+
+p{
+    font-size: 18px;
 }
 
 a{
@@ -28,19 +32,19 @@ a:hover{
     color: blue
 }
 
-.apresentacao{
+section{
     width: 100%;
     height: 395px;
     background-color: #36dbff;
 }
 
-.apresentacao h1{
+section h1{
     margin: 0;
 }
 
 img{
     float: left;
-    width: 25%;
+    width: 17%;
 }
 
 .categorias{
@@ -76,8 +80,20 @@ img{
     border: 1px solid black;
 }
 
-.market{
+.dicadodia h3,.dicadodia p{
     position: relative;
-    bottom: 5%;
-    left: 45%;
+    top: 400px;
+    right: 600px;
+}
+
+.dicadodia img{
+    position: relative;
+    top: 350px;
+    left: 10%;
+}
+
+footer{
+    background-color: #C1C1C1;
+    margin-top:700px;
+    height: 400px;
 }
